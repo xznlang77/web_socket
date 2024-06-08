@@ -11,6 +11,7 @@ public class Client {
         WebSocketClient client = new SimpleWebSocketClient(new URI("ws://localhost:7777"));
 
         client.connect();
+        System.out.println("got here");
     }
 
     static class SimpleWebSocketClient extends WebSocketClient {

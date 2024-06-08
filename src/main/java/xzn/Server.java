@@ -1,4 +1,4 @@
-package com.cardiogenerator.outputs;
+package xzn;
 
 import org.java_websocket.WebSocket;
 import org.java_websocket.server.WebSocketServer;
